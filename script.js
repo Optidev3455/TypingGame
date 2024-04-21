@@ -55,6 +55,8 @@ function init() {
   // Clear the user input and display the initial score
   userInput.value = "";
   document.getElementById("score").textContent = "Score: " + score;
+  timerElement.style.color = "black";
+  timerElement.style.fontWeight = "normal";
 
   // Add an event listener to check user input
   userInput.addEventListener("input", checkInput);
